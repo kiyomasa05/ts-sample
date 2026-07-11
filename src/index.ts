@@ -1,5 +1,5 @@
-import { Person } from "./person";
-import { add } from "./util";
+import { Person } from "./person.js";
+import { add } from "./util.js";
 
 const person = new Person("Taro");
 
