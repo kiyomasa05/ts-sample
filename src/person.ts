@@ -5,14 +5,4 @@ export class Person {
     return `Hello, ${this.name}`;
   }
 }
-type Human = {
-  name?: string;
-};
 
-const human: Human = {};
-
-// OK
-human.name = "Taro";
-
-// エラー
-human.name = undefined;
