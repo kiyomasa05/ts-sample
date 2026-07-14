@@ -5,3 +5,13 @@ const person = new Person("Taro");
 
 console.log(person.greet());
 console.log(add(1, 2));
+
+type User = {
+  name: string;
+};
+
+const user: User | undefined = {
+  name: "Taro",
+};
+
+console.log(user?.name);
