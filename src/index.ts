@@ -15,3 +15,5 @@ const user: User | undefined = {
 };
 
 console.log(user?.name);
+
+const name = user.name ?? "DummyName";
