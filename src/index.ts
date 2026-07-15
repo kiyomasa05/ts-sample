@@ -17,3 +17,8 @@ const user: User | undefined = {
 console.log(user?.name);
 
 const name = user.name ?? "DummyName";
+
+// include libの確認
+const numbers = [1, 2, 3];
+
+console.log(numbers.includes(2)); // true
