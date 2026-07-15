@@ -6,4 +6,4 @@ console.log(add(1, 2));
 const user = {
     name: "Taro",
 };
-console.log(user?.name);
+console.log(user === null || user === void 0 ? void 0 : user.name);
