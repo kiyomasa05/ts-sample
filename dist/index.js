@@ -14,4 +14,9 @@ const numbers = [1, 2, 3];
 console.log(numbers.includes(2)); // true
 const products = [{ id: 1, price: 1200 }];
 const product = products.find((product) => product.id === 2); // 2は存在しない
-console.log(product.price); //undefind
+if (product) {
+    console.log(product.price);
+}
+else {
+    console.log("商品が見つかりませんでした");
+}
