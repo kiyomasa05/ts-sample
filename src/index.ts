@@ -22,3 +22,14 @@ const name = user.name ?? "DummyName";
 const numbers = [1, 2, 3];
 
 console.log(numbers.includes(2)); // true
+
+// nullとundefindの確認
+type Product = {
+  id: number;
+  price: number;
+};
+
+const products: Product[] = [{ id: 1, price: 1200 }];
+
+const product = products.find((product) => product.id === 2); // 2は存在しない
+console.log(product.price); //undefind
