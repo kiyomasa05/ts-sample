@@ -28,5 +28,10 @@ try {
     executeTask();
 }
 catch (error) {
-    console.log(error.message);
+    if (error instanceof Error) {
+        console.log(error.message);
+    }
+    else {
+        console.log("Errorオブジェクト以外がthrowされました:", error);
+    }
 }
