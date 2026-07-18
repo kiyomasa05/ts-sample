@@ -20,3 +20,13 @@ if (product) {
 else {
     console.log("商品が見つかりませんでした");
 }
+// unknown型のエラー
+function executeTask() {
+    throw "文字列のエラーです";
+}
+try {
+    executeTask();
+}
+catch (error) {
+    console.log(error.message);
+}
