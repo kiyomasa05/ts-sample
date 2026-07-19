@@ -1,6 +1,7 @@
 var _a;
 import { Person } from "./person.js";
 import { add } from "./util.js";
+import { testName } from "../test/util.test.js";
 const person = new Person("Taro");
 console.log(person.greet());
 console.log(add(1, 2));
@@ -35,3 +36,4 @@ catch (error) {
         console.log("Errorオブジェクト以外がthrowされました:", error);
     }
 }
+console.log(testName);
