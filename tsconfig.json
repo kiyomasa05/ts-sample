@@ -43,7 +43,7 @@
     "skipLibCheck": true,
     "noEmit": true,
     "paths": {
-      "#app/*": ["./src/*"]
+      "@app/*": ["./src/*"]
     },
   },
   "include": ["src/**/*.ts", "test/**/*.ts", "scripts/**/*.ts"],
