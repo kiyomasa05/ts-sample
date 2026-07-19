@@ -1,5 +1,5 @@
-import { Person } from "@app/person.js";
-import { add } from "@app/util.js";
+import { Person } from "#app/person.js";
+import { add } from "#app/util.js";
 
 const person = new Person("Taro");
 
