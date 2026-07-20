@@ -33,3 +33,11 @@ function printStatus(status: "draft" | "published" | "edit") {
       break;
   }
 }
+//unUsedLocals
+const debugMessage = "debug";
+
+function greet(name: string, age: number) {
+  return `Hello, ${name}`;
+}
+
+console.log(greet("Taro", 30));
