@@ -21,11 +21,13 @@ function getLabel2(status: "active" | "inactive"): string | undefined {
 }
 
 // Fallthrough
-function printStatus(status: "draft" | "published") {
+function printStatus(status: "draft" | "published" | "edit") {
   switch (status) {
     case "draft":
-      console.log("下書き");
+    case "edit":
+      console.log("作成中");
       break;
+
     case "published":
       console.log("公開済み");
       break;
