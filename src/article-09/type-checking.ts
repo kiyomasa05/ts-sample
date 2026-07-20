@@ -1,3 +1,7 @@
 const users = ["Taro", "Jiro"];
 
-const firstUser: string = users[0];
+const firstUser = users[0];
+
+if (firstUser !== undefined) {
+  console.log(firstUser.toUpperCase());
+}
