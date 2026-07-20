@@ -20,3 +20,4 @@ class Counter {
     }
 }
 _Counter_count = new WeakMap();
+export {};
