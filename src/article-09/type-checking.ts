@@ -25,7 +25,9 @@ function printStatus(status: "draft" | "published") {
   switch (status) {
     case "draft":
       console.log("下書き");
+      break;
     case "published":
       console.log("公開済み");
+      break;
   }
 }
