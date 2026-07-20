@@ -19,3 +19,13 @@ function getLabel2(status: "active" | "inactive"): string | undefined {
   }
   return undefined;
 }
+
+// Fallthrough
+function printStatus(status: "draft" | "published") {
+  switch (status) {
+    case "draft":
+      console.log("下書き");
+    case "published":
+      console.log("公開済み");
+  }
+}
