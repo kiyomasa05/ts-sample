@@ -1,7 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.Person = void 0;
-class Person {
+export class Person {
     constructor(name) {
         this.name = name;
     }
@@ -9,4 +6,3 @@ class Person {
         return `Hello, ${this.name}`;
     }
 }
-exports.Person = Person;

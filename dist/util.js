@@ -1,8 +1,4 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.add = void 0;
-const add = (a, b) => a + b;
-exports.add = add;
+export const add = (a, b) => a + b;
 function double(value) {
     return value * 2;
 }

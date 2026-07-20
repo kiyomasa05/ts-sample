@@ -7,7 +7,7 @@
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "nodenext",
+    "module": "preserve",
     "target": "es2015",
     "lib": ["es2016", "DOM"],
     "types": [],
@@ -45,7 +45,7 @@
     "paths": {
       "@app/*": ["./src/*"]
     },
-    "moduleResolution": "nodenext"
+    "moduleResolution": "bundler"
   },
   "include": ["src/**/*.ts", "test/**/*.ts", "scripts/**/*.ts"],
   "exclude": ["node_modules", "dist"]

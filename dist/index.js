@@ -1,11 +1,9 @@
-"use strict";
 var _a;
-Object.defineProperty(exports, "__esModule", { value: true });
-const person_js_1 = require("./person.js");
-const util_js_1 = require("./util.js");
-const person = new person_js_1.Person("Taro");
+import { Person } from "./person.js";
+import { add } from "./util.js";
+const person = new Person("Taro");
 console.log(person.greet());
-console.log((0, util_js_1.add)(1, 2));
+console.log(add(1, 2));
 const user = {
     name: "Taro",
 };
