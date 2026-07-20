@@ -45,6 +45,7 @@
     "paths": {
       "@app/*": ["./src/*"]
     },
+    "moduleResolution": "nodenext"
   },
   "include": ["src/**/*.ts", "test/**/*.ts", "scripts/**/*.ts"],
   "exclude": ["node_modules", "dist"]
