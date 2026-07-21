@@ -8,7 +8,8 @@
     "noUnusedLocals": false,
     "noUnusedParameters": false,
     "noPropertyAccessFromIndexSignature": true,
-    "verbatimModuleSyntax": true
+    "verbatimModuleSyntax": false,
+    "isolatedModules": true
   },
   "include": [
     "src/article-09/**/*.ts",
