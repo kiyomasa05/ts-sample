@@ -10,7 +10,7 @@
     "noPropertyAccessFromIndexSignature": true,
     "verbatimModuleSyntax": false,
     "isolatedModules": true,
-    "moduleDetection": "legacy"
+    "moduleDetection": "force"
   },
   "include": [
     "src/article-09/**/*.ts",
