@@ -12,7 +12,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/react": "^19.2.17",
     "typescript": "^7.0.2"
   },
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "react": "^19.2.8"
+  }
 }

@@ -1,5 +1,5 @@
 import type { User } from "./user.js";
-import "./initialize.js";
+// import "./initialize.js";
 
 const user: User = {
   id: 1,
