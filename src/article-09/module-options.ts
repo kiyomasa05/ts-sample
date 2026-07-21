@@ -6,7 +6,7 @@ const user: User = {
 
 console.log(user);
 
-declare const enum Status {
+const enum Status {
   Draft = 0,
   Published = 1,
 }
