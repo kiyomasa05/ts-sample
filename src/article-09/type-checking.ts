@@ -53,4 +53,4 @@ const settings: Settings = {
   language: "ja",
 };
 
-console.log(settings.language);
+console.log(settings["language"]);
