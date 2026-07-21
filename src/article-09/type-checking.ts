@@ -41,3 +41,16 @@ function greet(name: string, age: number) {
 }
 
 console.log(greet("Taro", 30));
+
+// noPropertyAccessFromIndexSignature
+type Settings = {
+  theme: string;
+  [key: string]: string;
+};
+
+const settings: Settings = {
+  theme: "dark",
+  language: "ja",
+};
+
+console.log(settings.language);
