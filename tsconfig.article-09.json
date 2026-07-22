@@ -13,7 +13,8 @@
     "moduleDetection": "force",
     "noUncheckedSideEffectImports": true,
     "jsx": "react-jsx",
-    "types": ["node"]
+    "types": ["node"],
+    "skipLibCheck": false
   },
   "include": [
     "src/article-09/**/*.ts",
