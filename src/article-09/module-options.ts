@@ -14,4 +14,4 @@ const enum Status {
 
 console.log(Status.Published);
 
-console.log(process.env.NODE_ENV);
+console.log(process.env['NODE_ENV']);
