@@ -14,7 +14,7 @@
     "noUncheckedSideEffectImports": true,
     "jsx": "react-jsx",
     "types": ["node"],
-    "skipLibCheck": false
+    "skipLibCheck": true
   },
   "include": [
     "src/article-09/**/*.ts",
